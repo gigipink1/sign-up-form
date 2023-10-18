@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <section class="sidebar">
+            <div class="logo">
+                <img src="images/odin-lined.png" class="logo-img">
+                ODIN
+            </div>
+        </section>
+        <section class="content">
+            <header>
+                <p> This is not a real online service. You know you need something like
+                    this in your life to help you realise your deepest dreams. 
+                    <br>Sign up <em>now</em> to get started.  
+                </p>
+                <p>You <em>know</em> you want to.<p>
+            </header>
+            <section class="sign-up-form">
+                <h3>Let's do this!</h3>
+               <form action="" method="get">
+                <ul>
+                    <li>
+                        
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" id="fname" name="first_name" placeholder="John">
+                    </li>
+                    <li>
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" id="lname" name="last_name" placeholder="Doe">
+                    </li>
+                    <li>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" placeholder="john.doe@email.com">
+                    </li>
+                    <li>
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone_number" pattern="[/d]">
+                    </li>
+                    <li>
+                        <label for="pwd">PASSWORD</label>
+                        <input type="password" id="pwd" name="password" pattenr="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$
+                        ">
+                    </li>
+                    <li>
+                        <label for="pwd-confirm">CONFIRM PASSWORD</label>
+                        <input type="password" id="pwd-confirm" name="password-confirmation" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$">
+                    </li>
+                </ul>
+                <button>Create Account</button>
+               </form> 
+            </section>
+            <section class="links">
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </section>
+        </section>
+    </div>
+</body>
+</html>
