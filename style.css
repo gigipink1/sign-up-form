@@ -96,7 +96,7 @@ ul {
     list-style-type: none;
     justify-content: flex-start;
     width: 75%;
-    padding: 0 32px;
+    padding: 0 32px 20px 32px;;
     margin: 0;
 
 }
@@ -156,3 +156,31 @@ input:focus {
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.205);
 }
 
+input:invalid {
+    outline: none;
+    border: 1px solid red;
+
+}
+
+input + span {
+    position: relative;
+  }
+  
+  input + span::before {
+    position: absolute;
+    display:block;
+
+  }
+  
+  input:invalid {
+    border: 2px solid red;
+  }
+  
+  input:invalid + span::before {
+    content: "Password must have 8 characters, a number and a capital";
+    color: red;
+    font-size: .75rem;
+  }
+
+  
+  
