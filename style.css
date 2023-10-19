@@ -53,6 +53,20 @@ header p, h3, .links {
     font-family: norseBold;
 }
 
+.sidebar p {
+    color:white;
+    font-size:12px;
+    text-align: center;
+    position: relative;
+    top:95%
+}
+
+p a{
+    color:white;
+}
+
+
+
 
 /* content styling */
 
@@ -138,13 +152,13 @@ button:active{
     background-color:#37462b
 }
 
-a {
+.links a {
     color: #596d48;
     font-weight: bold;
     text-decoration: none;
 }
 
-a:active {
+.links a:active {
     color:#37462b;
 }
 
@@ -170,10 +184,6 @@ input + span {
     position: absolute;
     display:block;
 
-  }
-  
-  input:invalid {
-    border: 2px solid red;
   }
   
   input:invalid + span::before {
