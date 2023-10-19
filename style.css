@@ -32,6 +32,7 @@ header p, h3, .links {
     align-self: stretch;
     width: 35%;
     position: relative;
+    background-position: center center;
 }
 
 
