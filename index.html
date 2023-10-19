@@ -16,7 +16,7 @@
         </section>
         <section class="content">
             <header>
-                <p> This is not a real online service. You know you need something like
+                <p>This is not a real online service. You know you need something like
                     this in your life to help you realise your deepest dreams. 
                     <br>Sign up <em>now</em> to get started.  
                 </p>
@@ -24,7 +24,7 @@
             </header>
             <section class="sign-up-form">
                 <h3>Let's do this!</h3>
-               <form action="" method="get">
+               <form id=sign-up action="" method="get">
                 <ul>
                     <li>
                         
@@ -41,12 +41,11 @@
                     </li>
                     <li>
                         <label for="phone">PHONE NUMBER</label>
-                        <input type="tel" id="phone" name="phone_number" pattern="[/d]">
+                        <input type="tel" id="phone" name="phone_number">
                     </li>
                     <li>
                         <label for="pwd">PASSWORD</label>
-                        <input type="password" id="pwd" name="password" pattenr="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$
-                        ">
+                        <input type="password" id="pwd" name="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$">
                     </li>
                     <li>
                         <label for="pwd-confirm">CONFIRM PASSWORD</label>
@@ -56,7 +55,7 @@
                </form> 
             </section>
             <section class="links">
-                <button type="submit" >Create Account</button>
+                <button type="submit"  form="sign-up">Create Account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </section>
         </section>
